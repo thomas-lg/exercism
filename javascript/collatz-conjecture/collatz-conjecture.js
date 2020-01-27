@@ -1,6 +1,6 @@
 export const steps = n => {
   if (n <= 0) {
-    throw "Only positive numbers are allowed";
+    throw new Error("Only positive numbers are allowed");
   }
   let res = n;
   let steps = 0;
