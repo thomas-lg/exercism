@@ -1,1 +1,1 @@
-export const gigasecond = date => new Date(Date.parse(date) + Math.pow(10,12));
+export const gigasecond = date => new Date(date.getTime() + 1e12);
